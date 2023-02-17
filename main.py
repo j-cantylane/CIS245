@@ -14,7 +14,7 @@ def menu():         #Function that calls to the other functions
         print('D) Delete a book title')
         print('L) List all of the book titles')
         print('Q) Quit')
-        selection = input('Please select one of the above options: ')
+        selection = input('You must select one of the above options: ')
         if selection in validResponse:
             if selection in 'Aa':       #Validates the Response
                 addNewBook(books)
